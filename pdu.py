@@ -1,9 +1,9 @@
-#! /usr/bin/python
+#!/usr/bin/env python
 
-from __future__ import print_function
 from pysnmp.entity.rfc3413.oneliner import cmdgen
 from pysnmp.proto import rfc1902
 import logging
+
 
 class PDU(object):
     """ Class for interacting with PDU """
